@@ -4,8 +4,9 @@
 This project provides an API service for analyzing chicken vocalizations to detect distress calls. It uses a deep learning model (light-VGG11) trained on spectrogram data to classify audio segments as either normal barn sounds or distress calls.
 
 Developed by: Jose Carlo Sia / chaoserver
-Model: KE Tech Vocalization Detector (ketexh-vocalization.pth)
-Training data and training method adopted from Axio Mao on Automated Chicken Vocalization Detection
+
+Model: KETexh Chicken Vocalization Detector (ketexh-vocalization.pth)
+Training data and training method adopted from Axio Mao Automated identification of chicken distress vocalizations using deep learning models, Mao et al. (2021) 
 
 ## Features
 - Real-time audio analysis
@@ -33,14 +34,13 @@ cd chicken-vocalization
 Download the pre-trained model:
 - Model: ketexh-vocalization.pth
 - Place in: `app/models/`
-- Trained by: KE Texh / chaoserver
+- Trained by: KE-Texh / chaoserver
 - Specifications:
   - Architecture: light-VGG11 with batch normalization
   - Input: Mel spectrograms (88x87)
   - Output: Binary classification (normal/distress)
 
 ### 3. Build and Run
-
 
 Build Docker containers:
 
@@ -71,7 +71,6 @@ Content-Type: multipart/form-data
 bash
 POST /api/v1/analyze
 Content-Type: multipart/form-data
-
 
 ### 2. Check Analysis Status
 
@@ -155,7 +154,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 Jose Carlo Sia (chaoserver)
-KE Texh Research
+KE-Texh Research
 
 
 
