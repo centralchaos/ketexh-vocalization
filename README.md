@@ -26,9 +26,8 @@ Training data and training method adopted from Axio Mao Automated identification
 ### 1. Clone the Repository 
 
 bash
-git clone https://github.com/yourusername/chicken-vocalization.git
+git clone https://github.com/centralchaos/ketexh-vocalization.git
 cd chicken-vocalization
-
 
 ### 2. Model Setup
 Download the pre-trained model:
@@ -88,7 +87,6 @@ The Raspberry Pi client monitors an audio directory:
 bash
 cd raspberry_pi
 python3 send_audio.py
-
 
 Configuration:
 - Input: `audio_files/`
