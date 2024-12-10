@@ -1,0 +1,11 @@
+numpy==1.21.2
+librosa==0.8.1
+numba==0.53.1
+scikit-learn==1.0.2
+torch==1.13.1+cpu
+torchaudio==0.13.1+cpu
+fastapi==0.68.1
+python-multipart==0.0.5
+uvicorn[standard]==0.15.0
+aiofiles==23.2.1
+--extra-index-url https://download.pytorch.org/whl/cpu 

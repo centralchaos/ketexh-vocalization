@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+logs/
+audio_sender.log
+
+# Audio files and results
+raspberry_pi/audio_files/*
+raspberry_pi/processed_audio/*
+raspberry_pi/results/*
+!raspberry_pi/audio_files/.gitkeep
+!raspberry_pi/processed_audio/.gitkeep
+!raspberry_pi/results/.gitkeep
+
+# Model weights
+*.pth
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
