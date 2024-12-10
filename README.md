@@ -1,7 +1,7 @@
 # Chicken Vocalization Analysis API
 
 ## Overview
-This project provides an API service for analyzing chicken vocalizations to detect distress calls. It uses a deep learning model (VGG11) trained on spectrogram data to classify audio segments as either normal barn sounds or distress calls.
+This project provides an API service for analyzing chicken vocalizations to detect distress calls. It uses a deep learning model (light-VGG11) trained on spectrogram data to classify audio segments as either normal barn sounds or distress calls.
 
 Developed by: Jose Carlo Sia / chaoserver
 Model: KE Tech Vocalization Detector (ketexh-vocalization.pth)
